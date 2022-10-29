@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/baothethao"
+        android:icon="@drawable/ic_baseline_sports_soccer_24"
+        android:title="Thể Thao"/>
+    <item android:id="@+id/baophapluat"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="Pháp Luật"/>
+    <item android:id="@+id/giaoduc"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Giáo Dục"/>
+</menu>

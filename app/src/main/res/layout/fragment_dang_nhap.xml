@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".QuanLiTaiKhoan.DoiAvatarFragment">
+    <ImageView
+        android:id="@+id/imgAvt"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/ten_acount"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:text="Tên Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chụp Ảnh Làm Avatar"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/chon_avatar"
+        android:background="@drawable/background_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
