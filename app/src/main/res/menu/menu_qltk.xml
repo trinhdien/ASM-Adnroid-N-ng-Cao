@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/doiavatar"
+        android:icon="@drawable/ic_baseline_face_4_24"
+        android:title="Đổi Avatar"/>
+    <item android:id="@+id/doimatkhau"
+        android:icon="@drawable/ic_baseline_password_24"
+        android:title="Đổi Mật Khẩu"/>
+</menu>

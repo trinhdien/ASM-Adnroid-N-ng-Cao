@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/logo_header"
+        android:duration="3000"
+        />
+    <item
+        android:drawable="@drawable/slide_show_1"
+        android:duration="3000"
+        tools:ignore="ResourceCycle" />
+    <item
+        android:drawable="@drawable/slide_show_2"
+        android:duration="3000"
+        />
+</animation-list>
